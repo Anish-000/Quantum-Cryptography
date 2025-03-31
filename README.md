@@ -35,16 +35,19 @@ Comparison, strengths, and weaknesses
 
 
 📌 Why This Research?
+
 With the rapid development of quantum computing, cryptographic algorithms currently in use (RSA, ECC, etc.) are at risk of being broken. This research aims to understand the fundamentals of quantum-resistant algorithms like Saber and Kyber, which are part of the NIST Post-Quantum Cryptography standardization process.
 
 
 📁 Repository Structure
+
 /notes/ - My personal notes and summaries on the topics studied.
 
 /implementations/ - Future work where I will experiment with Saber and Kyber implementations.
 
 
 🚀 Future Plans
+
 Implement basic Saber and Kyber schemes.
 
 Explore other post-quantum cryptographic algorithms.
