@@ -1,0 +1,56 @@
+CRYSTALS-Kyber Demo (simplified C implementation)
+------------------------------------------------
+
+Generating key pair...
+Key generation completed in 0.015000 seconds
+
+Encapsulating shared secret...
+Encapsulation completed in 0.000000 seconds
+
+Decapsulating shared secret...
+Decapsulation completed in 0.000000 seconds
+
+
+Sender's shared secret:
+
+a04f7e76e1db495b403c57f96cb5f4a0
+701826f52d056b2e3b4eb83b6d3fb934
+
+
+Receiver's shared secret:
+
+a04f7e76e1db495b403c57f96cb5f4a0
+701826f52d056b2e3b4eb83b6d3fb934
+
+
+Shared secrets match: YES
+
+Total time for single execution: 0.015000 seconds
+
+Running benchmark with multiple iterations...
+Number of iterations: 100
+
+
+Performance Metrics (averaged over 100 iterations):
+--------------------------------------------------
+Key Generation: 0.003150 seconds
+Encapsulation:  0.004850 seconds
+Decapsulation:  0.001380 seconds
+Total:          0.009380 seconds
+
+
+Efficiency Analysis:
+-------------------
+Our implementation is a simplified educational version of Kyber.
+The naive polynomial multiplication has O(n^2) complexity instead of
+the O(n log n) that would be achieved with NTT-based multiplication.
+
+
+Reference implementations of Kyber are typically:
+- 10-100x faster on desktop CPUs
+- Much more memory efficient
+- Constant-time to prevent side-channel attacks
+
+--------------------------------
+Process exited after 1.23 seconds with return value 0
+Press any key to continue . . .
